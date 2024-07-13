@@ -7,6 +7,7 @@ const books = require('../data/books')
 //route
 router.get('/data/books');
 
+//POST
 //Create a new book 
 router.post('/books', (req,res) => {
 

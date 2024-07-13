@@ -3,10 +3,10 @@ const app = express();
 const port = 3000
 
 const books = require('./data/books')
-// const characters = require('./data/characters')
+const characters = require('./data/characters')
 // const mythical = require('./data/mythical')
 const bookRoutes = require('./routes/booksRoutes')
-// const charactersRoutes = require('./routes/charactersRoute')
+ const charactersRoutes = require('./routes/charactersRoutes')
 // const mythicalRoutes = require('./routes/mythicalRoutes')
 //Patch
 const bodyParser = require('body-parser')
@@ -15,6 +15,7 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json({extended: true}))
 app.use('/data/books', bookRoutes)
+app.use('/data/characters', charactersRoutes)
 //ROUTES
 app.get('/', (req,res) => {
     res.send("Home Page");

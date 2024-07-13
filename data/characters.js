@@ -5,7 +5,7 @@ const characters = [
             "Greek: Poseidon",
              "Roman: Neptune"
             ],
-        seriesIn: [ 
+        seriesAppearedIn: [ 
             "Percy Jackson and the Olympians",
             "The Trials of Apollo",
             "The Hereos of Olympus"
@@ -20,7 +20,7 @@ const characters = [
             "Greek: Athena",
             "Roman: Minerva"
         ],
-        seriesIn: [
+        seriesAppearedIn: [
              "Percy Jackson and the Olympians",
              "The Trials of Apollo", 
              "The Hereos of Olympus"
@@ -35,7 +35,7 @@ const characters = [
                 "Greek: Hermes", 
                 "Roman: Mercury"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                  "Percy Jackson and the Olympians"
             ],
     
@@ -47,7 +47,7 @@ const characters = [
                 "Greek: Zeus",
                  "Roman: Jupiter"
                 ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "The Heroes of Olympus",
                  "The Trial of Apollo"
                 ],
@@ -59,7 +59,7 @@ const characters = [
                 "Greek: Aphrodite", 
                 "Roman: Venus"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "The Hereos of Olympus",
                  "The Trials of Apollo"
                 ],
@@ -71,7 +71,7 @@ const characters = [
                 "Greek: Hephaestus",
                  "Roman: Vulcan"
                 ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "The Hereos of Olympus", 
                 "The Trials of Apollo"
             ],
@@ -82,7 +82,7 @@ const characters = [
             godlyParent: [
                 "Roman P "
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "The Hereos of Olympus"
             ],
         },
@@ -93,7 +93,7 @@ const characters = [
                 "Greek: Ares", 
                 "Roman: Mars"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "The Heroes of Olympus"
             ],
 
@@ -105,7 +105,7 @@ const characters = [
                 "Greek: Hades", 
                 "Roman: Pluto"
             ], 
-            seriesIn: [
+            seriesAppearedIn: [
                 "Percy Jackson and the Olympians", 
                 "The Heroes of Olympus",
                  "The Trials of Apollo"
@@ -117,7 +117,7 @@ const characters = [
             godlyParent: [
                 "Oracle at Camp HalfBlood"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "Percy Jackson and the Olympians",
                  "The Heroes of Olympus", 
                  "The Trials of Apollo"
@@ -131,7 +131,7 @@ const characters = [
                 "Greek: Hades", 
                 "Roman: Pluto"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "The Heroes of Olympus"
             ],
         },
@@ -142,7 +142,7 @@ const characters = [
                 "Greek: Ares", 
                 "Roman: Mars"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "Percy Jackson and the Olympians", 
                 "The Heroes of Olympus"
             ],
@@ -155,7 +155,7 @@ const characters = [
                 "Greek: Aphrodite", 
                 "Roman: Venus"
             ],
-            seriesIn: [
+            seriesAppearedIn: [
                 "Percy Jackson and the Olympians"
             ],
        },
@@ -166,7 +166,7 @@ const characters = [
             "Greek: Apollo", 
             "Roman: Apollo", 
             "Augur of Camp Jupiter"],
-        seriesIn: [
+        seriesAppearedIn: [
             "The Heroes of Olympians"
         ],
        },
@@ -177,7 +177,7 @@ const characters = [
             "Greek: Zeus", 
             "Roman: Jupiter"
         ],
-        seriesIn: [
+        seriesAppearedIn: [
             "Percy Jackson and the Olympians",
             "The Heroes of Olympians", 
             "The Trials of Apollo"
@@ -191,7 +191,7 @@ const characters = [
         "Greek: Hades",
          "Roman: Pluto"
         ],
-    seriesIn: ["Percy Jackson and the Olympians"]
+    seriesAppearedIn: ["Percy Jackson and the Olympians"]
    },
    {
     id: 17,
@@ -200,7 +200,7 @@ const characters = [
         "Greek: Hepheastus",
          "Roman: Vulcan"
         ],
-    seriesIn: [
+    seriesAppearedIn: [
         "Percy Jackson and the Olympians"
     ],
    },
@@ -210,7 +210,7 @@ const characters = [
     godlyParent: [
         "Greek: Apollo", 
         "Roman: Apollo"],
-    seriesIn: [
+    seriesAppearedIn: [
         "Percy Jackson and the Olympians", 
         "The Heroes of Olympus",
         "The Trials of Apollo"],
@@ -221,7 +221,7 @@ const characters = [
     godlyParent: [
         "Greek: Hermes", 
         "Roman: Mercury"],
-    seriesIn: [
+    seriesAppearedIn: [
         "Percy Jackson and the Olympians", 
         "The Heroes of Olympus", 
         "The Trials of Apollo"],
@@ -232,7 +232,7 @@ const characters = [
     godlyParent: [
         "Greek: Hermes", 
         "Roman: Mercury"],
-    seriesIn: [
+    seriesAppearedIn: [
         "Percy Jackson and the Olympians", 
         "The Heroes of Olympus",
         "The Trials of Apollo",
@@ -246,7 +246,7 @@ const characters = [
         "Greek: Poseidon",
         "Roman: Neptune",
     ],
-    seriesIn: [
+    seriesAppearedIn: [
         "Percy Jackson and the Olympians",
         "The Hereos of Olympus",
         "The Trials of Apollo",

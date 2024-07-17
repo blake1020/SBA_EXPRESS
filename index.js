@@ -4,27 +4,26 @@ const port = 3000
 
 const books = require('./data/books')
 const characters = require('./data/characters')
-// const mythical = require('./data/mythical')
+const mythicals = require('./data/mythicals')
 const bookRoutes = require('./routes/booksRoutes')
  const charactersRoutes = require('./routes/charactersRoutes')
-// const mythicalRoutes = require('./routes/mythicalRoutes')
+const mythicalRoutes = require('./routes/mythicalRoutes')
 //Patch
 const bodyParser = require('body-parser')
 
 //Middleware ADD LATER
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json({extended: true}))
-app.use('/data/books', bookRoutes)
-app.use('/data/characters', charactersRoutes)
+app.use('/api/data/books', bookRoutes)
+app.use('/api/data/characters', charactersRoutes)
+app.use('/api/data/mythicals', mythicalRoutes)
+
 //ROUTES
 app.get('/', (req,res) => {
     res.send("Home Page");
 })
 
-app.use((req,res) => {
-    res.status(404)
-    res.json({error: "Resources not found "})
-})
+
 
 //server Listening
 app.listen(port, () => {

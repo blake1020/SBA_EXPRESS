@@ -1,9 +1,9 @@
-const mythical = [
+const mythicals = [
     {
         id: 1,
         name: "Fates",
         species: "",
-        alliance: "",
+        alliance: "Hades",
         description: "The three Fates were mysterious old hags who controlled the destiny of all living beings from birth to death. They spun out each life as a thread, and cut it at the moment of death. Even the supposedly immortal gods were afraid of the Fates.",
        
         
@@ -49,17 +49,19 @@ const mythical = [
        {
         id:8,
         name: "Naiads",
-        alliance: "",
+        alliance: "The Olympians",
         description: "Female spirits that inhabit bodies of fresh water such as river and lakes.",
        },
        {
         id: 9,
         name: "Nereids",
+        alliance: "The Olympians",
         description: "Female spirits of the sea.",
        },
        {
         id: 10,
         name: "Dryads",
+        alliance: "The Olympians",
         description: "Female spirits of nature that live in trees or forests.",
        },
        {
@@ -84,13 +86,15 @@ const mythical = [
        {
         id: 14,
         name: "Ella",
+        species: "Harpie",
         alliance: "Friendly Monster",
         description: "A small, red-feathered, and skinny harpy. Her eidetic memory gives her the ability to memorize almost anything she reads. She read parts of the sacred Sibylline Books of Rome before they were destroyed and can recite the prophecies from the books, making her a very valuable person, especially to the Romans",
        },
        {
         id: 15,
         name: "Gleeson Hedge",
-        alliance: "Friendly",
+        species: "Sayter",
+        alliance: "The Olympians",
         description: "Also known as Coach Hedge is a middle aged satyr that was formerly filling as a coach at the Wilderness School. "
        },
        {
@@ -168,9 +172,10 @@ const mythical = [
         id: 26,
         name: "Grover Underwood",
         species: "Sayter",
-        alliance: "Olympians",
+        alliance: " The Olympians",
+        description: "A satyr and a Lord of the Wild (and Percy Jackson's BestFriend,), along with Silenus and Maron. He is also a Chosen of Pan, and is carrying the soul of Pan. He is the tritagonist of the Percy Jackson and the Olympians."
        },  
 ]
 
 
-module.exports = mythical
+module.exports = mythicals
